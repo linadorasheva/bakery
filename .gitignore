@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 .idea
 *.ai
@@ -9,3 +10,16 @@ node_modules/
 npm-debug.*
 source/css/*.css
 Thumbs.db
+=======
+node_modules/
+bower_components/
+*.css
+.DS_Store
+Thumbs.db
+.idea
+*.sublime*
+*.log
+*.psd
+*.ai
+*.pdf
+>>>>>>> 947af0f5b83296b1a56f8469998e7b814a1539be
