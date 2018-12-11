@@ -103,8 +103,16 @@
           <button class="pancakes__menu" type="button">menu</button>
           <div class="slider">
             <div class="slider__toggles">
-              <button class="slider__toggle slider__toggle--left" type="button">left</button>
-              <button class="slider__toggle slider__toggle--right" type="button">right</button>
+              <button class="slider__toggle slider__toggle--left" type="button">
+                <svg width="33" heigth="33">
+                  <use xlink:href="sprite.svg#arrow-left">
+                </svg>
+              </button>
+              <button class="slider__toggle slider__toggle--right" type="button">
+                <svg width="33" heigth="33">
+                  <use xlink:href="sprite.svg#arrow-right">
+                </svg>
+              </button>
             </div>
             <div class="slider__slides">
               <div class="slider__slide slider__slide--slide1"></div>
@@ -116,11 +124,11 @@
               <div class="slider__slide slider__slide--slide6"></div>
             </div>
           </div>
-        </div>
-        <div class="ready-in ready-in--pancakes">
-          <span class="ready-in__title">Ready in</span>
-          <span class="ready-in__number">40</span>
-          <span class="ready-in__measure">mins</span>
+          <div class="ready-in ready-in--pancakes">
+            <span class="ready-in__title">Ready in</span>
+            <span class="ready-in__number">40</span>
+            <span class="ready-in__measure">mins</span>
+          </div>
         </div>
       </div>
     </section>

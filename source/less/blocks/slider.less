@@ -1,3 +1,41 @@
 .slider {
-    
+  position: relative;
+  width: 426px;
+  height: 90px;
+  outline: 1px solid;
+}
+.slider__toggles {
+
+}
+.slider__toggle {
+  position: absolute;
+  top: 29px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 2px solid #56534c;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
+
+  &--left {
+    left: 0;
+  }
+
+  &--right {
+    right: 0;
+  }
+}
+.slider__slides {
+  display: flex;
+  width: 330px;
+  overflow: hidden;
+}
+.slider__slide {
+  display: block;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-image: url("../img/sandwich_small.jpg");
 }
