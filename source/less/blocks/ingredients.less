@@ -1,3 +1,61 @@
 .ingredients {
-    
+  width: 295px;
+  margin-right: 103px;
+}
+.ingredients__item {
+  position: relative;
+  margin-bottom: 57px;
+  padding-top: 120px;
+}
+.ingredients__item:last-child {
+  margin-bottom: 0;
+}
+.ingredients__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-image: url("../img/corn.jpg");
+  background-repeat: no-repeat;
+  background-size: 230%;
+  background-position-x: 80%;
+  background-position-y: 90%;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.004);
+}
+.ingredients__item--egg::before {
+  background-image: url("../img/eggs.jpg");
+  background-size: 160%;
+  background-position-x: -15px;
+  background-position-y: 0;
+}
+.ingredients__item--cheese::before {
+  background-image: url("../img/cheese.jpg");
+  background-size: cover;
+  background-position-x: -30px;
+  background-position-y: 0px;
+}
+.ingredients__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-align: center;
+  color: #a47d5e;
+}
+.ingredients__text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: center;
 }
