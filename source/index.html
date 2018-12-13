@@ -7,38 +7,42 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Playfair+Display:700|Roboto:400" rel="stylesheet">
 </head>
 <body>
-  <header class="page-header container container--header">
-    <a href="#" class="logo"><img class="logo__img" src="img/logo.png" width="140" height="44">Gustoso</a>
-    <nav class="main-nav">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a href="#" class="main-nav__link">Welcome</a>
+  <header class="page-header container">
+    <div class="page-header__wrapper">
+      <a href="#" class="logo">
+        <img class="logo__img" src="img/logo.png" width="140" height="44">Gustoso
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Welcome</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Menu</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Reservations</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">News</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="social">
+        <li class="social__item">
+          <a href="#" class="social__link">twitter</a>
         </li>
-        <li class="main-nav__item">
-          <a href="#" class="main-nav__link">Menu</a>
+          <li class="social__item">
+            <a href="#" class="social__link">facebook</a>
         </li>
-        <li class="main-nav__item">
-          <a href="#" class="main-nav__link">Reservations</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="#" class="main-nav__link">News</a>
-        </li>
-        <li class="main-nav__item">
-          <a href="#" class="main-nav__link">Contact</a>
+          <li class="social__item">
+            <a href="#" class="social__link">instagram</a>
         </li>
       </ul>
-    </nav>
-    <ul class="social">
-      <li class="social__item">
-        <a href="#" class="social__link">twitter</a>
-    </li>
-      <li class="social__item">
-        <a href="#" class="social__link">facebook</a>
-    </li>
-      <li class="social__item">
-        <a href="#" class="social__link">instagram</a>
-    </li>
-    </ul>
+    </div>
   </header>
   <main>
     <section class="promo container">
@@ -164,43 +168,44 @@
     </section>
     <section class="sandwich container">
       <div class="sandwich__wrapper">
-        <h3 class="sandwich__title">The Jibarito sandwich</h3>
-        <span class="sandwich__subtitle">The best sandwich you’ve ever tasted!</span>
-      </div>
-      <div class="ingredients">
-        <div class="ingredients__item">
-          <h4 class="ingredients__title">Class aptent</h4>
-          <p class="ingredients__text">Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
+        <div class="sandwich__inner">
+          <h3 class="sandwich__title">The Jibarito sandwich</h3>
+          <span class="sandwich__subtitle">The best sandwich you’ve ever tasted!</span>
         </div>
-        <div class="ingredients__item">
-          <h4 class="ingredients__title">Nulla eget</h4>
-          <p class="ingredients__text">Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
-        </div>
-        <div class="ingredients__item">
-          <h4 class="ingredients__title">Sed nibh purus</h4>
-          <p class="ingredients__text"> Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.</p>
-        </div>
-      </div>
-      <div class="product">
-        <div class="product__timing">
-          <div class="product__time">
-            <span class="product__process">Prep</span>
-            <span class="product__number">15</span>
-            <span class="product__measure">mins</span>
+        <div class="ingredients">
+          <div class="ingredients__item">
+            <h4 class="ingredients__title">Class aptent</h4>
+            <p class="ingredients__text">Quot alienum persecuti ut eam, nam ad atqui primis nusquam.</p>
           </div>
-          <div class="product__time">
-            <span class="product__process">Cook</span>
-            <span class="product__number">35</span>
-            <span class="product__measure">mins</span>
+          <div class="ingredients__item">
+            <h4 class="ingredients__title">Nulla eget</h4>
+            <p class="ingredients__text">Nullam dictum felis eu pede mollis pretium Integer tincidunt.</p>
           </div>
-          <div class="ready-in ready-in--sandwich">
-            <span class="ready-in__title">Ready in</span>
-            <span class="ready-in__number">50</span>
-            <span class="ready-in__measure">mins</span>
+          <div class="ingredients__item">
+            <h4 class="ingredients__title">Sed nibh purus</h4>
+            <p class="ingredients__text"> Aenean eleifend tellus leo ligula, porttitor eu, consequat vitae.</p>
           </div>
         </div>
-        <a class="sandwich__link" href="#">Full recipe</a>
-      </div>
+        <div class="product">
+          <div class="product__timing">
+            <div class="product__time">
+              <span class="product__process">Prep</span>
+              <span class="product__number">15</span>
+              <span class="product__measure">mins</span>
+            </div>
+            <div class="product__time">
+              <span class="product__process">Cook</span>
+              <span class="product__number">35</span>
+              <span class="product__measure">mins</span>
+            </div>
+            <div class="ready-in ready-in--sandwich">
+              <span class="ready-in__title">Ready in</span>
+              <span class="ready-in__number">50</span>
+              <span class="ready-in__measure">mins</span>
+            </div>
+          </div>
+          <a class="sandwich__link" href="#">Full recipe</a>
+        </div>
     </section>
   </main>
   <footer class="page-footer container">
