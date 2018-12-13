@@ -1,3 +1,106 @@
 .breakfast {
-    
+  position: relative;
+  background-image: url("../img/bg_breakfast.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.breakfast::before {
+  content: "";
+  position: absolute;
+  bottom: 9px;
+  right: -2px;
+  width: 346px;
+  height: 220px;
+  background-image: url("../img/kolos.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  opacity: 0.9;
+  z-index: 9999;
+}
+.breakfast__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.breakfast__menu {
+  width: 715px;
+  min-height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.breakfast__inner {
+  margin-bottom: 55px;
+}
+.breakfast__title {
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.breakfast__subtitle {
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #c8a593;
+  text-transform: uppercase;
+}
+.breakfast__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 9px;
+  padding-bottom: 43px;
+}
+.breakfast__item:last-child {
+  padding-bottom: 0;
+}
+.breakfast__item::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 90px;
+  height: 27px;
+  margin-bottom: 5px;
+  transform: translateX(-50%);
+  background-image: url("../img/breaker_breakfast.png");
+}
+.breakfast__item:last-child::before {
+  content: none;
+}
+
+.breakfast__name {
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.breakfast__description {
+  margin-bottom: 12px;
+  font-family: 'Alegreya', serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #c2beba;
+}
+.breakfast__price {
+  font-family: 'Alegreya', serif;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.05em;
+  color: #dfc691;
 }

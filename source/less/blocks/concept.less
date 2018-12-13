@@ -1,3 +1,74 @@
 .concept {
-    
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  height: 600px;
+  background-image: url("../img/bg_breakfast_concept.png");
+  background-repeat: no-repeat;
+}
+
+.concept::before {
+  content: "est.";
+  position: absolute;
+  top: 40px;
+  left: 105px;
+  font-family: 'Alegreya', serif;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.concept::after {
+  content: "1893";
+  position: absolute;
+  top: 40px;
+  right: 105px;
+  font-family: 'Alegreya', serif;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.concept__title {
+  display: block;
+  width: 335px;
+  margin: 0;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'Alegreya', serif;
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-align: center;
+}
+.concept__text {
+  display: block;
+  width: 330px;
+  margin: 0;
+  margin-bottom: 45px;
+  padding: 0;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.concept__link {
+  display: block;
+  width: 190px;
+  margin: 0;
+  padding: 9px 0;
+  border: 1px solid #9e9c93;
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #a47d5e;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
 }
