@@ -33,13 +33,25 @@
       </nav>
       <ul class="social">
         <li class="social__item">
-          <a href="#" class="social__link">twitter</a>
+          <a href="#" class="social__link">twitter
+            <svg class="social__tw" width="16" heigth="13">
+              <use xlink:href="sprite.svg#tw">
+            </svg>
+          </a>
         </li>
-          <li class="social__item">
-            <a href="#" class="social__link">facebook</a>
+        <li class="social__item">
+            <a href="#" class="social__link">facebook
+              <svg class="social__fb" width="8" heigth="15">
+                <use xlink:href="sprite.svg#fb">
+              </svg>
+            </a>
         </li>
-          <li class="social__item">
-            <a href="#" class="social__link">instagram</a>
+        <li class="social__item">
+            <a href="#" class="social__link">instagram
+              <svg class="social__inst" width="14" heigth="16">
+                <use xlink:href="sprite.svg#inst">
+              </svg>
+            </a>
         </li>
       </ul>
     </div>
@@ -83,19 +95,39 @@
         <div class="pancakes__image">
           <div class="stars">
             <input class="stars__input" type="radio" name="star1" id="star1">
-            <label class="stars__label">одна звезда</label>
+            <label class="stars__label">одна звезда
+              <svg class="stars__star stars__star--fill" width="20" heigth="20">
+                <use xlink:href="sprite.svg#star-fill">
+              </svg>
+            </label>
 
             <input class="stars__input" type="radio" name="star2" id="star2">
-            <label class="stars__label">две звезды</label>
+            <label class="stars__label">две звезды
+              <svg class="stars__star" width="20" heigth="20">
+                <use xlink:href="sprite.svg#star-fill">
+              </svg>
+            </label>
 
             <input class="stars__input" type="radio" name="star3" id="star3">
-            <label class="stars__label">три звезды</label>
+            <label class="stars__label">три звезды
+              <svg class="stars__star stars__star--fill" width="20" heigth="20">
+                <use xlink:href="sprite.svg#star-fill">
+              </svg>
+            </label>
 
             <input class="stars__input" type="radio" name="star4" id="star4">
-            <label class="stars__label">четыре звезды</label>
+            <label class="stars__label">четыре звезды
+              <svg class="stars__star stars__star--fill" width="20" heigth="20">
+                <use xlink:href="sprite.svg#star-fill">
+              </svg>
+            </label>
 
             <input class="stars__input" type="radio" name="star5" id="star5">
-            <label class="stars__label">пять звезд</label>
+            <label class="stars__label">пять звезд
+              <svg class="stars__star" width="20" heigth="20">
+                <use xlink:href="sprite.svg#star">
+              </svg>
+            </label>
           </div>
         </div>
         <div class="pancakes__descript">
@@ -211,26 +243,33 @@
   </main>
   <footer class="page-footer container">
     <ul class="nav-footer">
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Our menu</a>
-      </li>
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Gallery</a>
-      </li>
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Culture</a>
-      </li>
-      <li class="nav-footer__item">
-        <a href="#" class="logo logo--footer">
-          <img class="logo__img logo__img--footer" src="**/logo.png" width="140" height="44">Gustoso
-        </a>
+      <div class="nav-footer__wrapper">
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Our menu</a>
         </li>
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Events</a></li>
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Catering</a></li>
-      <li class="nav-footer__item">
-        <a href="#" class="nav-footer__link">Visit us</a></li>
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Gallery</a>
+        </li>
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Culture</a>
+        </li>
+      </div>
+      <li class="nav-footer__item nav-footer__item--logo">
+        <a href="#" class="nav-footer__link nav-footer__link--logo">
+          <img class="logo__img logo__img--footer" src="img/logo-footer.png" width="140" height="44">Gustoso
+        </a>
+      </li>
+      <div class="nav-footer__wrapper nav-footer__wrapper--two">
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Events</a>
+        </li>
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Catering</a>
+        </li>
+        <li class="nav-footer__item">
+          <a href="#" class="nav-footer__link">Visit us</a>
+        </li>
+      </div>
     </ul>
   </footer>
 </body>

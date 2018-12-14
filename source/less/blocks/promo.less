@@ -12,6 +12,7 @@
   background-position: center 0px;
 }
 .promo__title {
+  position: relative;
   margin: 0;
   margin-bottom: 65px;
   padding: 0;
@@ -23,6 +24,18 @@
   letter-spacing: 0.075em;
   color: #ffffff;
 }
+
+.promo__title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 192px;
+  height: 14px;
+  background-image: url("../img/svg/dashed_line.svg");
+}
+
 .promo__text {
   width: 550px;
   margin: 0;
@@ -56,6 +69,28 @@
   bottom: -49px;
   width: 106px;
   height: 106px;
-  background-color: lightyellow;
+}
+
+.promo__img::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.promo__img::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 106px;
+  height: 106px;
+  background-image: url("../img/bread.png");
 }
 
