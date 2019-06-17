@@ -5,13 +5,12 @@
 *.pdf
 *.psd
 *.sublime*
-node_modules/
 npm-debug.*
 source/css/*.css
 Thumbs.db
-=======
 node_modules/
 bower_components/
+<<<<<<< HEAD
 *.css
 .DS_Store
 Thumbs.db
@@ -21,3 +20,5 @@ Thumbs.db
 *.psd
 *.ai
 *.pdf
+=======
+>>>>>>> 5b4896f362890e0a0c40e74656d04131820dbb1f
